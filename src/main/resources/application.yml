@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    platform: postgres
+    type: com.zaxxer.hikari.HikariDataSource
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://13.203.142.64:5432/mandadi_db
+    username: postgres
+    password: db_passwd
+    hikari:
+      idle-timeout: 10000
+      minimumIdle: 1
+      maximumPoolSize: 3
+      idleTimeout: 30000
+      poolName: SpringBootJPAHikariCP
+      maxLifetime: 2000000
+      connectionTimeout: 30000
