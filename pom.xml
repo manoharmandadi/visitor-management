@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>in.mandadi.practice.spring.mvc</groupId>
-    <artifactId>spring-mvc-practice</artifactId>
+    <artifactId>visitor-mgmt</artifactId>
     <version>0.0.4-SNAPSHOT</version>
-    <name>spring-mvc-practice</name>
+    <name>visitor-management</name>
     <description>Demo project for Spring Boot</description>
     <url/>
     <licenses>
