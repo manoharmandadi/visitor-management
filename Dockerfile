@@ -3,7 +3,7 @@ FROM openjdk:17-ea-17-slim
 WORKDIR /app
 COPY ./target/visitor-mgmt-0.0.4-SNAPSHOT.jar /app
 EXPOSE 8080
-CMD ["java", "-jar", "visitor-mgmt-0.0.4-SNAPSHOT.jar", "--spring.profiles.active=dev","-Duser.timezone=Asia/Kolkata"]
+CMD ["java", "-jar", "visitor-mgmt-0.0.4-SNAPSHOT.jar", "-Duser.timezone=Asia/Kolkata"]
 
 ### Docker compose for DB.
 # services:
