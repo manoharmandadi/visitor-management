@@ -3,7 +3,7 @@ spring:
     platform: postgres
     type: com.zaxxer.hikari.HikariDataSource
     driverClassName: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/mandadi_db
+    url: jdbc:postgresql://postgres-cont:5432/mandadi_db
     username: postgres
     password: db_passwd
     hikari:
